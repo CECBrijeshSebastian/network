@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Network Lab Programs</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: #0f172a;
+            color: white;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+            overflow: hidden;
+        }
+
+        h1 {
+            font-size: 32px;
+            margin-bottom: 10px;
+        }
+
+        .big {
+            font-size: 60px;
+            animation: blink 1.5s infinite;
+        }
+
+        p {
+            font-size: 18px;
+            opacity: 0.8;
+        }
+
+        button {
+            margin-top: 20px;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            cursor: pointer;
+            background: #22c55e;
+            color: black;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        button:hover {
+            background: #16a34a;
+            transform: scale(1.1);
+        }
+
+        @keyframes blink {
+            0% { opacity: 1; }
+            50% { opacity: 0.3; }
+            100% { opacity: 1; }
+        }
+
+        .wifi {
+            font-size: 80px;
+            animation: rotate 4s linear infinite;
+        }
+
+        @keyframes rotate {
+            from { transform: rotate(0deg); }
+            to { transform: rotate(360deg); }
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="wifi">📡</div>
+
+    <h1>There is still no Network Lab Programs uploaded here...</h1>
+
+    <div class="big">PLEASE WAIT 😭</div>
+
+    <p>
+        The programs are probably stuck in a router somewhere.<br>
+        Maybe they are buffering… or maybe your lab partner forgot again.
+    </p>
+
+    <button onclick="alert('Still loading... Please check again after 10 years 😌')">
+        Click to Refresh Hope
+    </button>
+    <button>
+        <a href="https://github.com/CECBrijeshSebastian/CECjava.git">Click to GoBack!!!</a>
+    </button>
+
+</body>
+</html>
